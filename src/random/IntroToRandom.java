@@ -11,11 +11,14 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
-		int r = 0;
+		int r = 0 ;
 		
 		//2. Now make r random. 
 		//   Create an object of the Random class
 		//   Hint: new Random().nextInt()
+		Random spaghet=new Random();
+		r =spaghet.nextInt(88-(-222)+1)+-222;
+		
 
 		//3. Limit the random number between 0 and 100
 
