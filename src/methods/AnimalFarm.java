@@ -17,10 +17,25 @@ AnimalFarm() {
 	/*
 	 * 1. Ask the user which animal they want, then play the sound of that
 	 * animal.
+	 
 	 */
 
 	/* 2. Make it so that the user can keep entering new animals. */
-}
+	String furry = JOptionPane.showInputDialog("name?");
+	if(furry.equals("cow")){
+		playMoo();
+	
+	}
+	
+	if(furry.equals("dog")){
+		playWoof(); }
+		
+		if(furry.equals("llama")){
+			playNoise(llamaFile);
+		}
+	
+	}
+
 
 void playMoo() {
 	playNoise(mooFile);
